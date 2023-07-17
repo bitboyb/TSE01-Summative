@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5B622A2F-6301-4015-9C96-5395D53081A4}" SchemaVersion="94">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{5B622A2F-6301-4015-9C96-5395D53081A4}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Combat" ID="{17FA018A-D05D-4FC7-8CF9-76E7C4DEF51C}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{C0112B72-796E-4386-9845-C3304CD1D0A1}"/>
+						<State Name="InCombat" ID="{524B0A2A-1BF4-4BA4-BF65-CFC78FE5FD75}"/>
+						<State Name="OutOfCombat" ID="{E585CE48-3082-4A79-8F84-45A56F80A3C3}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Location" ID="{A6BFC04E-7864-49B5-8259-6E500F755632}">
+					<ChildrenList>
+						<State Name="None" ID="{B709B523-8280-4BD0-B2E3-47B98DEEC550}"/>
+						<State Name="Inside" ID="{687E0D63-36D7-4AD5-A8F8-44BB6B057C0A}"/>
+						<State Name="Outside" ID="{B19665B0-150E-43F7-97F1-71B083430833}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

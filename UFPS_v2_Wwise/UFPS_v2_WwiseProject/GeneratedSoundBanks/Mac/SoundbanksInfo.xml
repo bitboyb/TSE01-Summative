@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>G:\tse-games\UnityProjects\UFPS_v2_Wwise\UFPS_v2_Wwise_SoundDesign\TSE01_Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>G:\tse-games\UnityProjects\UFPS_v2_Wwise\UFPS_v2_Wwise_SoundDesign\TSE01_Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>G:\tse-games\UnityProjects\UFPS_v2_Wwise\UFPS_v2_Wwise_SoundDesign\TSE01_Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>G:\tse-games\UnityProjects\UFPS_v2_Wwise\UFPS_v2_Wwise_SoundDesign\TSE01_Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2469504869" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Master_SoundBank</ObjectPath>
+			<ShortName>Master_SoundBank</ShortName>
+			<Path>Master_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4028534575" Name="Play_Ambience_Outdoor" ObjectPath="\Events\Default Work Unit\Play_Ambience_Outdoor" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1750034035" Name="Play_Explosion_Crate" ObjectPath="\Events\Default Work Unit\Play_Explosion_Crate" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3567098453" Name="Play_Explosion_Cube_Large" ObjectPath="\Events\Default Work Unit\Play_Explosion_Cube_Large" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3323714021" Name="Play_Explosion_Cube_Medium" ObjectPath="\Events\Default Work Unit\Play_Explosion_Cube_Medium" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1771718509" Name="Play_Explosion_Cube_Small" ObjectPath="\Events\Default Work Unit\Play_Explosion_Cube_Small" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3355065672" Name="Play_Explosion_Grenade" ObjectPath="\Events\Default Work Unit\Play_Explosion_Grenade" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2257988020" Name="Play_Explosion_Turret" ObjectPath="\Events\Default Work Unit\Play_Explosion_Turret" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3240538482" Name="Play_Footsteps_Ladder" ObjectPath="\Events\Default Work Unit\Play_Footsteps_Ladder" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="987776771" Name="Play_Grenade_Collision_Generic" ObjectPath="\Events\Default Work Unit\Play_Grenade_Collision_Generic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="667776489" Name="Play_Grenade_Collision_Gravel" ObjectPath="\Events\Default Work Unit\Play_Grenade_Collision_Gravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="113239165" Name="Play_Grenade_Collision_Metal" ObjectPath="\Events\Default Work Unit\Play_Grenade_Collision_Metal" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1534406247" Name="Play_Grenade_Collision_Rock" ObjectPath="\Events\Default Work Unit\Play_Grenade_Collision_Rock" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3440975554" Name="Play_Grenade_Collision_Sand" ObjectPath="\Events\Default Work Unit\Play_Grenade_Collision_Sand" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="433775379" Name="Play_Grenade_Collision_Wood" ObjectPath="\Events\Default Work Unit\Play_Grenade_Collision_Wood" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="219936670" Name="Play_GunTurret_Destroyed" ObjectPath="\Events\Default Work Unit\Play_GunTurret_Destroyed" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1910435093" Name="Play_GunTurret_Fire" ObjectPath="\Events\Default Work Unit\Play_GunTurret_Fire" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2050019" Name="Play_GunTurret_Respawn" ObjectPath="\Events\Default Work Unit\Play_GunTurret_Respawn" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3185902068" Name="Play_Object_Collision_Generic" ObjectPath="\Events\Default Work Unit\Play_Object_Collision_Generic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1796808812" Name="Play_Object_Collision_Gravel" ObjectPath="\Events\Default Work Unit\Play_Object_Collision_Gravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4026866594" Name="Play_Object_Collision_Metal" ObjectPath="\Events\Default Work Unit\Play_Object_Collision_Metal" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4077877566" Name="Play_Object_Collision_Rock" ObjectPath="\Events\Default Work Unit\Play_Object_Collision_Rock" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2333408675" Name="Play_Object_Collision_Sand" ObjectPath="\Events\Default Work Unit\Play_Object_Collision_Sand" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1054012614" Name="Play_Object_Collision_Wood" ObjectPath="\Events\Default Work Unit\Play_Object_Collision_Wood" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3408667289" Name="Play_Object_Door_Open" ObjectPath="\Events\Default Work Unit\Play_Object_Door_Open" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3347279095" Name="Play_Object_Shell_Bounce" ObjectPath="\Events\Default Work Unit\Play_Object_Shell_Bounce" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3568534433" Name="Play_Object_ShotgunShell_Bounce" ObjectPath="\Events\Default Work Unit\Play_Object_ShotgunShell_Bounce" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3693372815" Name="Play_Object_Spawn" ObjectPath="\Events\Default Work Unit\Play_Object_Spawn" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1600088316" Name="Play_Player_Damage_RagdollDrop" ObjectPath="\Events\Default Work Unit\Play_Player_Damage_RagdollDrop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1835085974" Name="Play_Player_Death" ObjectPath="\Events\Default Work Unit\Play_Player_Death" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2962353707" Name="Play_Player_FallImpact_Generic" ObjectPath="\Events\Default Work Unit\Play_Player_FallImpact_Generic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1065036273" Name="Play_Player_FallImpact_Gravel" ObjectPath="\Events\Default Work Unit\Play_Player_FallImpact_Gravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3864690181" Name="Play_Player_FallImpact_Metal" ObjectPath="\Events\Default Work Unit\Play_Player_FallImpact_Metal" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="617673183" Name="Play_Player_FallImpact_Rock" ObjectPath="\Events\Default Work Unit\Play_Player_FallImpact_Rock" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2227229482" Name="Play_Player_FallImpact_Sand" ObjectPath="\Events\Default Work Unit\Play_Player_FallImpact_Sand" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3507213995" Name="Play_Player_FallImpact_Wood" ObjectPath="\Events\Default Work Unit\Play_Player_FallImpact_Wood" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="872438052" Name="Play_Player_Footstep_Gravel" ObjectPath="\Events\Default Work Unit\Play_Player_Footstep_Gravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4225303162" Name="Play_Player_Footstep_Metal" ObjectPath="\Events\Default Work Unit\Play_Player_Footstep_Metal" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="788137702" Name="Play_Player_Footstep_Rock" ObjectPath="\Events\Default Work Unit\Play_Player_Footstep_Rock" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2535870139" Name="Play_Player_Footstep_Sand" ObjectPath="\Events\Default Work Unit\Play_Player_Footstep_Sand" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1217663566" Name="Play_Player_Footstep_Wood" ObjectPath="\Events\Default Work Unit\Play_Player_Footstep_Wood" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3740255252" Name="Play_Player_HealthLow" ObjectPath="\Events\Default Work Unit\Play_Player_HealthLow" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3719969812" Name="Play_Player_Interaction_Drop" ObjectPath="\Events\Default Work Unit\Play_Player_Interaction_Drop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1414632853" Name="Play_Player_Interaction_Grab" ObjectPath="\Events\Default Work Unit\Play_Player_Interaction_Grab" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4156561345" Name="Play_Player_Interaction_Ladder_Climb" ObjectPath="\Events\Default Work Unit\Play_Player_Interaction_Ladder_Climb" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2051801885" Name="Play_Player_Interaction_Ladder_Dismount" ObjectPath="\Events\Default Work Unit\Play_Player_Interaction_Ladder_Dismount" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1074332529" Name="Play_Player_Interaction_Ladder_Mount" ObjectPath="\Events\Default Work Unit\Play_Player_Interaction_Ladder_Mount" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="499223506" Name="Play_Player_Jump_Generic" ObjectPath="\Events\Default Work Unit\Play_Player_Jump_Generic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3882425706" Name="Play_Player_Jump_Gravel" ObjectPath="\Events\Default Work Unit\Play_Player_Jump_Gravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3727925695" Name="Play_Player_Jump_Grunt" ObjectPath="\Events\Default Work Unit\Play_Player_Jump_Grunt" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3638494632" Name="Play_Player_Jump_Metal" ObjectPath="\Events\Default Work Unit\Play_Player_Jump_Metal" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1420175520" Name="Play_Player_Jump_Rock" ObjectPath="\Events\Default Work Unit\Play_Player_Jump_Rock" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="88020493" Name="Play_Player_Jump_Sand" ObjectPath="\Events\Default Work Unit\Play_Player_Jump_Sand" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2567502628" Name="Play_Player_Jump_Wood" ObjectPath="\Events\Default Work Unit\Play_Player_Jump_Wood" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2401049040" Name="Play_Player_Pain" ObjectPath="\Events\Default Work Unit\Play_Player_Pain" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3121364601" Name="Play_Player_Pickup_Ammo" ObjectPath="\Events\Default Work Unit\Play_Player_Pickup_Ammo" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2489309115" Name="Play_Player_Pickup_Fail" ObjectPath="\Events\Default Work Unit\Play_Player_Pickup_Fail" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1104563961" Name="Play_Player_Pickup_Health" ObjectPath="\Events\Default Work Unit\Play_Player_Pickup_Health" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="321386436" Name="Play_Player_Pickup_Slowmo" ObjectPath="\Events\Default Work Unit\Play_Player_Pickup_Slowmo" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3814548396" Name="Play_Player_Pickup_Speed" ObjectPath="\Events\Default Work Unit\Play_Player_Pickup_Speed" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1504171807" Name="Play_Player_Push_Switch" ObjectPath="\Events\Default Work Unit\Play_Player_Push_Switch" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4238880044" Name="Play_Player_Respawn" ObjectPath="\Events\Default Work Unit\Play_Player_Respawn" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="240207275" Name="Play_Projectile_Impact_Body" ObjectPath="\Events\Default Work Unit\Play_Projectile_Impact_Body" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2298633770" Name="Play_Projectile_Impact_Generic" ObjectPath="\Events\Default Work Unit\Play_Projectile_Impact_Generic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2934439298" Name="Play_Projectile_Impact_Gravel" ObjectPath="\Events\Default Work Unit\Play_Projectile_Impact_Gravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="945803264" Name="Play_Projectile_Impact_Metal" ObjectPath="\Events\Default Work Unit\Play_Projectile_Impact_Metal" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4135534152" Name="Play_Projectile_Impact_Rock" ObjectPath="\Events\Default Work Unit\Play_Projectile_Impact_Rock" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2537600357" Name="Play_Projectile_Impact_Sand" ObjectPath="\Events\Default Work Unit\Play_Projectile_Impact_Sand" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3711373850" Name="Play_Projectile_Impact_Shotgun_Body" ObjectPath="\Events\Default Work Unit\Play_Projectile_Impact_Shotgun_Body" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3149873505" Name="Play_Projectile_Impact_Shotgun_Generic" ObjectPath="\Events\Default Work Unit\Play_Projectile_Impact_Shotgun_Generic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2948962079" Name="Play_Projectile_Impact_Shotgun_Gravel" ObjectPath="\Events\Default Work Unit\Play_Projectile_Impact_Shotgun_Gravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="71957323" Name="Play_Projectile_Impact_Shotgun_Metal" ObjectPath="\Events\Default Work Unit\Play_Projectile_Impact_Shotgun_Metal" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2447318745" Name="Play_Projectile_Impact_Shotgun_Rock" ObjectPath="\Events\Default Work Unit\Play_Projectile_Impact_Shotgun_Rock" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="29761348" Name="Play_Projectile_Impact_Shotgun_Sand" ObjectPath="\Events\Default Work Unit\Play_Projectile_Impact_Shotgun_Sand" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3565823665" Name="Play_Projectile_Impact_Shotgun_Wood" ObjectPath="\Events\Default Work Unit\Play_Projectile_Impact_Shotgun_Wood" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1251216012" Name="Play_Projectile_Impact_Wood" ObjectPath="\Events\Default Work Unit\Play_Projectile_Impact_Wood" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1774824148" Name="Play_SkyCity_Music" ObjectPath="\Events\Default Work Unit\Play_SkyCity_Music" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="77252758" Name="Play_Weapon_AssaultRifle_DryFire" ObjectPath="\Events\Default Work Unit\Play_Weapon_AssaultRifle_DryFire" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3155333987" Name="Play_Weapon_AssaultRifle_Fire" ObjectPath="\Events\Default Work Unit\Play_Weapon_AssaultRifle_Fire" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3910508167" Name="Play_Weapon_AssaultRifle_Pickup" ObjectPath="\Events\Default Work Unit\Play_Weapon_AssaultRifle_Pickup" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1494220228" Name="Play_Weapon_AssaultRifle_Reload" ObjectPath="\Events\Default Work Unit\Play_Weapon_AssaultRifle_Reload" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2309336439" Name="Play_Weapon_AssaultRifle_Unwield" ObjectPath="\Events\Default Work Unit\Play_Weapon_AssaultRifle_Unwield" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4021590872" Name="Play_Weapon_AssaultRifle_Wield" ObjectPath="\Events\Default Work Unit\Play_Weapon_AssaultRifle_Wield" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3486444227" Name="Play_Weapon_Glock_DryFire" ObjectPath="\Events\Default Work Unit\Play_Weapon_Glock_DryFire" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2621029088" Name="Play_Weapon_Glock_Fire" ObjectPath="\Events\Default Work Unit\Play_Weapon_Glock_Fire" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="705360608" Name="Play_Weapon_Glock_Pickup" ObjectPath="\Events\Default Work Unit\Play_Weapon_Glock_Pickup" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2391787948" Name="Play_Weapon_Glock_PickupFail" ObjectPath="\Events\Default Work Unit\Play_Weapon_Glock_PickupFail" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3002645259" Name="Play_Weapon_Glock_Reload" ObjectPath="\Events\Default Work Unit\Play_Weapon_Glock_Reload" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1302309294" Name="Play_Weapon_Glock_Unwield" ObjectPath="\Events\Default Work Unit\Play_Weapon_Glock_Unwield" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1753688501" Name="Play_Weapon_Glock_Wield" ObjectPath="\Events\Default Work Unit\Play_Weapon_Glock_Wield" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1643291472" Name="Play_Weapon_Grenade_Pickup" ObjectPath="\Events\Default Work Unit\Play_Weapon_Grenade_Pickup" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1200655580" Name="Play_Weapon_Grenade_Throw" ObjectPath="\Events\Default Work Unit\Play_Weapon_Grenade_Throw" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3979494622" Name="Play_Weapon_Grenade_Unwield" ObjectPath="\Events\Default Work Unit\Play_Weapon_Grenade_Unwield" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1858228421" Name="Play_Weapon_Grenade_Wield" ObjectPath="\Events\Default Work Unit\Play_Weapon_Grenade_Wield" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1383562155" Name="Play_Weapon_Knife_Stab" ObjectPath="\Events\Default Work Unit\Play_Weapon_Knife_Stab" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2552221191" Name="Play_Weapon_Knife_Unwield" ObjectPath="\Events\Default Work Unit\Play_Weapon_Knife_Unwield" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4013787144" Name="Play_Weapon_Knife_Wield" ObjectPath="\Events\Default Work Unit\Play_Weapon_Knife_Wield" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2887566695" Name="Play_Weapon_Shotgun_DryFire" ObjectPath="\Events\Default Work Unit\Play_Weapon_Shotgun_DryFire" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3693774580" Name="Play_Weapon_Shotgun_Fire" ObjectPath="\Events\Default Work Unit\Play_Weapon_Shotgun_Fire" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="228785484" Name="Play_Weapon_Shotgun_Pickup" ObjectPath="\Events\Default Work Unit\Play_Weapon_Shotgun_Pickup" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1775225375" Name="Play_Weapon_Shotgun_Reload" ObjectPath="\Events\Default Work Unit\Play_Weapon_Shotgun_Reload" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1935341530" Name="Play_Weapon_Shotgun_Unwield" ObjectPath="\Events\Default Work Unit\Play_Weapon_Shotgun_Unwield" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1864886529" Name="Play_Weapon_Shotgun_Wield" ObjectPath="\Events\Default Work Unit\Play_Weapon_Shotgun_Wield" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

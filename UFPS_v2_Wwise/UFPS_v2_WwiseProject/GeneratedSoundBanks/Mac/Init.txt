@@ -1,0 +1,19 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1176052424	Location			\Default Work Unit\Location	
+	2764240573	Combat			\Default Work Unit\Combat	
+
+State	ID	Name	State Group			Notes
+	0	None	Location			
+	438105790	Outside	Location			
+	3553349781	Inside	Location			
+	0	None	Combat			
+	2773031252	OutOfCombat	Combat			
+	3373579172	InCombat	Combat			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
