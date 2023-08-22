@@ -1,6 +1,398 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{29534FD3-862C-46B6-BE37-C7CCD223EE29}" SchemaVersion="94">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{29534FD3-862C-46B6-BE37-C7CCD223EE29}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{29534FD3-862C-46B6-BE37-C7CCD223EE29}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="SFX" ID="{D1AE5649-DFDB-4D07-A1E7-483E004B45B2}" ShortID="944700253">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Player" ID="{6BD5155D-4032-4E2C-8300-02A061CA40A0}" ShortID="972666628">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="Footstep" ID="{1580805A-1E31-408A-AF22-DED68F4431A0}" ShortID="455236164">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SwitchContainer Name="Player_OnWalk" ID="{CF5A7676-4BF5-4FA4-AB55-9EF679A34B18}" ShortID="680237202">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="Concrete" ID="{D7AFC0D7-E5DF-48B5-934A-0BBD51679D41}" WorkUnitID="{B7C1422B-613B-4666-8421-C8984758A5DD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="Footstep_Surface" ID="{B4CCBC39-32EB-4EFC-BB31-6C6C8E4C8E6B}" WorkUnitID="{B7C1422B-613B-4666-8421-C8984758A5DD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Asphalt" ID="{68D0946F-1A00-47BC-B1DC-A88E19C62C34}" ShortID="84439564">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="sfx_player_OnWalk_Asphalt_000" ID="{926AE09D-2AA7-4219-BD65-33C82985DAD8}" ShortID="275891173">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_OnWalk_Asphalt_000" ID="{66C833E9-1A98-4823-99E2-AB8A42D1E94E}" ShortID="847009515">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="1.55327278364429E-02"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.55327278364429E-02"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_OnWalk_Asphalt_000.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_OnWalk_Asphalt_000" ID="{66C833E9-1A98-4823-99E2-AB8A42D1E94E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_player_OnWalk_Asphalt_001" ID="{4F87792A-64B9-4269-95B1-640BF6CDDF64}" ShortID="510369504">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_OnWalk_Asphalt_001" ID="{149CD1EC-751C-4F33-B40B-4C52236636A5}" ShortID="122058213">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="2.04240302018931E-02"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.04240302018931E-02"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_OnWalk_Asphalt_001.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_OnWalk_Asphalt_001" ID="{149CD1EC-751C-4F33-B40B-4C52236636A5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_player_OnWalk_Asphalt_002" ID="{C365017C-A33A-41EE-A082-62278A681A9D}" ShortID="628199064">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_OnWalk_Asphalt_002" ID="{2985E760-AADB-43F7-9E83-129A6895AF0A}" ShortID="796205531">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="2.42404691992972E-02"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.42404691992972E-02"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_OnWalk_Asphalt_002.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_OnWalk_Asphalt_002" ID="{2985E760-AADB-43F7-9E83-129A6895AF0A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Concrete" ID="{623404CE-5FC6-43D3-8815-D36EFB0CD67C}" ShortID="962996704">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="sfx_player_OnWalk_Concrete_000" ID="{30785826-8619-49F6-A46C-FF5C3071D042}" ShortID="814565695">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_OnWalk_Concrete_000" ID="{028AB538-94F5-4782-A6FF-C66349C89716}" ShortID="11305661">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="8.3049734639164E-03"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="8.3049734639164E-03"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_OnWalk_Concrete_000.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_OnWalk_Concrete_000" ID="{028AB538-94F5-4782-A6FF-C66349C89716}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_player_OnWalk_Concrete_001" ID="{B4A12A63-7052-4478-A459-8934548D00AC}" ShortID="666391802">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_OnWalk_Concrete_001" ID="{1973A615-CE43-4EDB-A596-BF3BC38637BF}" ShortID="353585163">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_OnWalk_Concrete_001.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_OnWalk_Concrete_001" ID="{1973A615-CE43-4EDB-A596-BF3BC38637BF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_player_OnWalk_Concrete_002" ID="{D861C5AF-DEAD-4F53-8B0F-51B66A803D57}" ShortID="456239442">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_OnWalk_Concrete_002" ID="{A1FE36D1-AEFA-4361-B018-0D4DC9679AE1}" ShortID="724631490">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_OnWalk_Concrete_002.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_OnWalk_Concrete_002" ID="{A1FE36D1-AEFA-4361-B018-0D4DC9679AE1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Wood" ID="{F6E734AB-F593-42CD-A28C-DF02B809D39D}" ShortID="587584466">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="sfx_player_OnWalk_Wood_000" ID="{DDA4D6BC-94C5-4866-97B2-2AB8C5E9CE85}" ShortID="1011376871">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_OnWalk_Wood_000" ID="{0C2D7D54-A587-46CA-BE44-863378E6121A}" ShortID="292922642">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="2.01036639857015E-02"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.01036639857015E-02"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_OnWalk_Wood_000.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_OnWalk_Wood_000" ID="{0C2D7D54-A587-46CA-BE44-863378E6121A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_player_OnWalk_Wood_001" ID="{79E3D8E1-46DE-4367-87DE-AC17AA6C2961}" ShortID="30559839">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_OnWalk_Wood_001" ID="{38322548-EB32-476D-8F1C-BC06F431352A}" ShortID="555917690">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="4.46130473637176E-02"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="4.46130473637176E-02"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_OnWalk_Wood_001.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_OnWalk_Wood_001" ID="{38322548-EB32-476D-8F1C-BC06F431352A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_player_OnWalk_Wood_002" ID="{9A3309DA-BABB-4F38-9A43-A3236C707F58}" ShortID="799260321">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_OnWalk_Wood_002" ID="{9AC5FAEA-0297-4484-B350-9132E815C80A}" ShortID="489936357">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="1.02001787310098E-02"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.02001787310098E-02"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_OnWalk_Wood_002.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_OnWalk_Wood_002" ID="{9AC5FAEA-0297-4484-B350-9132E815C80A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Asphalt" ID="{68D0946F-1A00-47BC-B1DC-A88E19C62C34}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Wood" ID="{F6E734AB-F593-42CD-A28C-DF02B809D39D}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Concrete" ID="{623404CE-5FC6-43D3-8815-D36EFB0CD67C}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Wood" ID="{A8958DB2-DD9E-49F4-AD8E-986A29AE7A90}"/>
+														<ItemList>
+															<ItemRef Name="Wood" ID="{F6E734AB-F593-42CD-A28C-DF02B809D39D}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Concrete" ID="{D7AFC0D7-E5DF-48B5-934A-0BBD51679D41}"/>
+														<ItemList>
+															<ItemRef Name="Concrete" ID="{623404CE-5FC6-43D3-8815-D36EFB0CD67C}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="Asphalt" ID="{2659B9F5-228A-4E27-B126-C7235527652E}"/>
+														<ItemList>
+															<ItemRef Name="Asphalt" ID="{68D0946F-1A00-47BC-B1DC-A88E19C62C34}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Weapon" ID="{183A6FCF-3D69-42E1-9AC7-C3320B5D38D2}" ShortID="48976983">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="Turrent" ID="{105DE852-70F7-4A9C-A220-F88F15CA4D3D}" ShortID="901512391">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="AMB" ID="{7D43FB35-95BA-4589-A577-5865BA63D2F7}" ShortID="984780187">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="3D" ID="{0F9C7CEA-C83A-4C5F-A760-C3353C6BCDE8}" ShortID="71488246">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="2D" ID="{D2BBE734-03B9-4990-89E2-F99F95840E37}" ShortID="193592628">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CA90109-CFFF-4C49-B522-990F1B05A5AB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ED0B8042-18C8-4411-9D17-561B1709BF9B}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

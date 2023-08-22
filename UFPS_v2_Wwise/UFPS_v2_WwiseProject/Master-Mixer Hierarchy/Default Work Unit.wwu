@@ -9,6 +9,54 @@
 							<ObjectRef Name="System" ID="{8E9643C1-4938-4238-A63A-16C5C9D02686}" WorkUnitID="{6D67C835-14B4-4EC6-9A86-E3420E7B89B1}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{9BD14568-40AA-4240-A8B0-682D94808B8B}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Player" ID="{F570D2D8-6DC5-4E7A-A12C-BB6157F15458}"/>
+								<Bus Name="Turrent" ID="{C791E2E2-393D-4ED4-B52D-FCC4FF29FF70}"/>
+								<Bus Name="Weapon" ID="{ABA5919B-EAD1-4F13-AE19-A8A6D9FB3B4C}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="AMB" ID="{1C1A6565-E1C9-4511-A990-15DD4C320D8D}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="2D" ID="{B1471042-B087-45D6-8CA9-20C0C6EB8186}"/>
+								<Bus Name="3D" ID="{9D3F24D7-D7FA-4ECD-A3CF-F272267C85A4}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Location_Sends" ID="{F461E673-7D80-4E84-A794-1E935A575357}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<AuxBus Name="Inside_Small" ID="{D46C9E9A-76D2-4319-B8E7-18F2EE351749}"/>
+								<AuxBus Name="Inside_Large" ID="{92A80800-E279-42D3-A50D-479A814CC2F1}"/>
+								<AuxBus Name="Inside_Medium" ID="{4FC8FCEC-B049-4006-86C1-CF37D4F31240}"/>
+								<AuxBus Name="Outside_Medium" ID="{2E5085F2-7464-4616-9721-3D6DE9760451}"/>
+								<AuxBus Name="Outside_Small" ID="{3CD6873A-63C1-4F2A-B2C3-01DF3D0C7DB4}"/>
+								<AuxBus Name="Outside_Large" ID="{EA3C8FFC-E592-4666-A614-AD23BB13BCE2}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Attentuation_Sends" ID="{71C823F3-DFA3-494E-94C4-01DF3FC86BF1}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="6"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<AuxBus Name="Attenuation_Close" ID="{F62F0443-9CA7-4CCD-B2A8-A1612A8783FA}"/>
+								<AuxBus Name="Attenuation_Medium" ID="{6EC5AA49-3B2B-49BC-8BA1-A673AF82A34B}"/>
+								<AuxBus Name="Attenuation_Far" ID="{F30FBD9F-78C9-4702-9F56-DA96311090D3}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

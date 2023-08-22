@@ -5,8 +5,10 @@
 			<ChildrenList>
 				<GameParameter Name="Height" ID="{1FBB9A82-1F73-488A-B12A-DF1DAF875065}">
 					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="20"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

@@ -1135,6 +1135,25 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="SFX" ID="{64F366AF-F89E-45EA-9D51-43FC1B6B9B9E}" ShortID="852310560">
+					<ChildrenList>
+						<Folder Name="Player" ID="{64D3654F-CE51-4F1A-BE79-DB2BFEC20C6F}" ShortID="121194272">
+							<ChildrenList>
+								<Event Name="Play_Player_Footstep" ID="{FBDCBB24-4EA2-4488-8E07-D1CDDEF887F1}">
+									<ChildrenList>
+										<Action Name="" ID="{061C1B99-DED4-4DB4-929A-2299EB9D8989}" ShortID="724950427">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Player_OnWalk" ID="{CF5A7676-4BF5-4FA4-AB55-9EF679A34B18}" WorkUnitID="{29534FD3-862C-46B6-BE37-C7CCD223EE29}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

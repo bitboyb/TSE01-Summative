@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F92AE958-FCC2-433A-A7A4-66939173C904}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="LEGACY" ID="{F92AE958-FCC2-433A-A7A4-66939173C904}" PersistMode="Standalone"/>
+	</Events>
+</WwiseDocument>

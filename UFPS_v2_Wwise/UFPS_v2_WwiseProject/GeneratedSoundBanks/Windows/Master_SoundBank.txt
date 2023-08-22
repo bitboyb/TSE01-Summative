@@ -34,6 +34,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1534406247	Play_Grenade_Collision_Rock			\Default Work Unit\Play_Grenade_Collision_Rock	
 	1600088316	Play_Player_Damage_RagdollDrop			\Default Work Unit\Play_Player_Damage_RagdollDrop	
 	1643291472	Play_Weapon_Grenade_Pickup			\Default Work Unit\Play_Weapon_Grenade_Pickup	
+	1724675634	Play_Player_Footstep			\Default Work Unit\SFX\Player\Play_Player_Footstep	
 	1750034035	Play_Explosion_Crate			\Default Work Unit\Play_Explosion_Crate	
 	1753688501	Play_Weapon_Glock_Wield			\Default Work Unit\Play_Weapon_Glock_Wield	
 	1771718509	Play_Explosion_Cube_Small			\Default Work Unit\Play_Explosion_Cube_Small	
@@ -101,4 +102,23 @@ Event	ID	Name			Wwise Object Path	Notes
 	4156561345	Play_Player_Interaction_Ladder_Climb			\Default Work Unit\Play_Player_Interaction_Ladder_Climb	
 	4225303162	Play_Player_Footstep_Metal			\Default Work Unit\Play_Player_Footstep_Metal	
 	4238880044	Play_Player_Respawn			\Default Work Unit\Play_Player_Respawn	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1833605183	Footstep_Surface			\Default Work Unit\Footstep_Surface	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	Footstep_Surface			
+	2058049674	Wood	Footstep_Surface			
+	4169408098	Asphalt	Footstep_Surface			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	11305661	sfx_player_OnWalk_Concrete_000	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Windows\SFX\sfx_player_OnWalk_Concrete_000_4538E775.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Concrete\sfx_player_OnWalk_Concrete_000		49432
+	122058213	sfx_player_OnWalk_Asphalt_001	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Windows\SFX\sfx_player_OnWalk_Asphalt_001_124D54B3.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Asphalt\sfx_player_OnWalk_Asphalt_001		54888
+	292922642	sfx_player_OnWalk_Wood_000	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Windows\SFX\sfx_player_OnWalk_Wood_000_E02B3079.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Wood\sfx_player_OnWalk_Wood_000		75958
+	353585163	sfx_player_OnWalk_Concrete_001	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Windows\SFX\sfx_player_OnWalk_Concrete_001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Concrete\sfx_player_OnWalk_Concrete_001		137280
+	489936357	sfx_player_OnWalk_Wood_002	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Windows\SFX\sfx_player_OnWalk_Wood_002_536795BB.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Wood\sfx_player_OnWalk_Wood_002		55276
+	555917690	sfx_player_OnWalk_Wood_001	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Windows\SFX\sfx_player_OnWalk_Wood_001_7BB33900.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Wood\sfx_player_OnWalk_Wood_001		54404
+	724631490	sfx_player_OnWalk_Concrete_002	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Windows\SFX\sfx_player_OnWalk_Concrete_002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Concrete\sfx_player_OnWalk_Concrete_002		139328
+	796205531	sfx_player_OnWalk_Asphalt_002	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Windows\SFX\sfx_player_OnWalk_Asphalt_002_3E2E8E4D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Asphalt\sfx_player_OnWalk_Asphalt_002		57728
+	847009515	sfx_player_OnWalk_Asphalt_000	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Windows\SFX\sfx_player_OnWalk_Asphalt_000_FC7F5E1F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Asphalt\sfx_player_OnWalk_Asphalt_000		59264
 

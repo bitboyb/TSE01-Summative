@@ -48,6 +48,7 @@ namespace AK
         static const AkUniqueID PLAY_PLAYER_FALLIMPACT_ROCK = 617673183U;
         static const AkUniqueID PLAY_PLAYER_FALLIMPACT_SAND = 2227229482U;
         static const AkUniqueID PLAY_PLAYER_FALLIMPACT_WOOD = 3507213995U;
+        static const AkUniqueID PLAY_PLAYER_FOOTSTEP = 1724675634U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEP_GRAVEL = 872438052U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEP_METAL = 4225303162U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEP_ROCK = 788137702U;
@@ -119,6 +120,18 @@ namespace AK
 
     namespace STATES
     {
+        namespace CEILINGHEIGHT
+        {
+            static const AkUniqueID GROUP = 2536805059U;
+
+            namespace STATE
+            {
+                static const AkUniqueID HIGH = 3550808449U;
+                static const AkUniqueID LOW = 545371365U;
+                static const AkUniqueID MEDIUM = 2849147824U;
+            } // namespace STATE
+        } // namespace CEILINGHEIGHT
+
         namespace COMBAT
         {
             static const AkUniqueID GROUP = 2764240573U;
@@ -140,6 +153,18 @@ namespace AK
                 static const AkUniqueID OUTSIDE = 438105790U;
             } // namespace STATE
         } // namespace LOCATION
+
+        namespace LOCATIONSIZE
+        {
+            static const AkUniqueID GROUP = 2003718035U;
+
+            namespace STATE
+            {
+                static const AkUniqueID LARGE = 4284352190U;
+                static const AkUniqueID MEDIUM = 2849147824U;
+                static const AkUniqueID SMALL = 1846755610U;
+            } // namespace STATE
+        } // namespace LOCATIONSIZE
 
     } // namespace STATES
 
@@ -172,8 +197,30 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID _2D = 527871411U;
+        static const AkUniqueID _3D = 511093792U;
+        static const AkUniqueID AMB = 1117531639U;
+        static const AkUniqueID ATTENTUATION_SENDS = 2773236517U;
+        static const AkUniqueID LOCATION_SENDS = 3369062428U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID PLAYER = 1069431850U;
+        static const AkUniqueID SFX = 393239870U;
+        static const AkUniqueID TURRENT = 45143903U;
+        static const AkUniqueID WEAPON = 3893417221U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID ATTENUATION_CLOSE = 649088242U;
+        static const AkUniqueID ATTENUATION_FAR = 1544237229U;
+        static const AkUniqueID ATTENUATION_MEDIUM = 771471059U;
+        static const AkUniqueID INSIDE_LARGE = 2043049829U;
+        static const AkUniqueID INSIDE_MEDIUM = 1523426453U;
+        static const AkUniqueID INSIDE_SMALL = 2403279293U;
+        static const AkUniqueID OUTSIDE_LARGE = 414815550U;
+        static const AkUniqueID OUTSIDE_MEDIUM = 351526704U;
+        static const AkUniqueID OUTSIDE_SMALL = 2272186266U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

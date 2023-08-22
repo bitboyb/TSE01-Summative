@@ -31,6 +31,7 @@
 						<ObjectRef Name="Play_Weapon_Glock_Unwield" ID="{11D7F86B-36FD-4432-9845-19DC6743B439}" WorkUnitID="{E78CBC09-C1B7-483D-A582-446D391C65E8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Ambience_Outdoor" ID="{5745150F-1851-4435-8DE5-742168141C77}" WorkUnitID="{E78CBC09-C1B7-483D-A582-446D391C65E8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Explosion_Cube_Medium" ID="{58924A9A-C317-443C-8A13-AF84870ED9BB}" WorkUnitID="{E78CBC09-C1B7-483D-A582-446D391C65E8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Player_Footstep" ID="{FBDCBB24-4EA2-4488-8E07-D1CDDEF887F1}" WorkUnitID="{E78CBC09-C1B7-483D-A582-446D391C65E8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Player_FallImpact_Sand" ID="{E47778F6-E42C-44BE-8676-94C601921F9F}" WorkUnitID="{E78CBC09-C1B7-483D-A582-446D391C65E8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Player_Pickup_Speed" ID="{683A0B98-1665-44CC-9139-D7E59A7F0790}" WorkUnitID="{E78CBC09-C1B7-483D-A582-446D391C65E8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Player_Footstep_Metal" ID="{41F466C4-DDE2-44DE-AA2B-E842B04D6FA2}" WorkUnitID="{E78CBC09-C1B7-483D-A582-446D391C65E8}" Filter="7" Origin="Manual"/>
