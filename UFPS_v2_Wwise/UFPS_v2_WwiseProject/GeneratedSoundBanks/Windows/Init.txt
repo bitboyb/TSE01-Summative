@@ -1,47 +1,17 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	1176052424	Location			\Default Work Unit\Location	
-	2003718035	LocationSize			\Default Work Unit\LocationSize	
-	2536805059	CeilingHeight			\Default Work Unit\CeilingHeight	
 	2764240573	Combat			\Default Work Unit\Combat	
 
 State	ID	Name	State Group			Notes
 	0	None	Location			
 	438105790	Outside	Location			
 	3553349781	Inside	Location			
-	0	None	LocationSize			
-	1846755610	Small	LocationSize			
-	2849147824	Medium	LocationSize			
-	4284352190	Large	LocationSize			
-	0	None	CeilingHeight			
-	545371365	Low	CeilingHeight			
-	2849147824	Medium	CeilingHeight			
-	3550808449	High	CeilingHeight			
 	0	None	Combat			
 	2773031252	OutOfCombat	Combat			
 	3373579172	InCombat	Combat			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	45143903	Turrent			\Default Work Unit\Master Audio Bus\SFX\Turrent	
-	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
-	511093792	3D			\Default Work Unit\Master Audio Bus\AMB\3D	
-	527871411	2D			\Default Work Unit\Master Audio Bus\AMB\2D	
-	1069431850	Player			\Default Work Unit\Master Audio Bus\SFX\Player	
-	1117531639	AMB			\Default Work Unit\Master Audio Bus\AMB	
-	2773236517	Attentuation_Sends			\Default Work Unit\Master Audio Bus\Attentuation_Sends	
-	3369062428	Location_Sends			\Default Work Unit\Master Audio Bus\Location_Sends	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-	3893417221	Weapon			\Default Work Unit\Master Audio Bus\SFX\Weapon	
-
-Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	351526704	Outside_Medium			\Default Work Unit\Master Audio Bus\Location_Sends\Outside_Medium	
-	414815550	Outside_Large			\Default Work Unit\Master Audio Bus\Location_Sends\Outside_Large	
-	649088242	Attenuation_Close			\Default Work Unit\Master Audio Bus\Attentuation_Sends\Attenuation_Close	
-	771471059	Attenuation_Medium			\Default Work Unit\Master Audio Bus\Attentuation_Sends\Attenuation_Medium	
-	1523426453	Inside_Medium			\Default Work Unit\Master Audio Bus\Location_Sends\Inside_Medium	
-	1544237229	Attenuation_Far			\Default Work Unit\Master Audio Bus\Attentuation_Sends\Attenuation_Far	
-	2043049829	Inside_Large			\Default Work Unit\Master Audio Bus\Location_Sends\Inside_Large	
-	2272186266	Outside_Small			\Default Work Unit\Master Audio Bus\Location_Sends\Outside_Small	
-	2403279293	Inside_Small			\Default Work Unit\Master Audio Bus\Location_Sends\Inside_Small	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

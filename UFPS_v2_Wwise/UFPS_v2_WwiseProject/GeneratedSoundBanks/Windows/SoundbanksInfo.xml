@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>G:\tse-games\UnityProjects\UFPS_v2_Wwise\UFPS_v2_Wwise_SoundDesign\TSE01_Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>G:\tse-games\UnityProjects\UFPS_v2_Wwise\UFPS_v2_Wwise_SoundDesign\TSE01_Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>G:\tse-games\UnityProjects\UFPS_v2_Wwise\UFPS_v2_Wwise_SoundDesign\TSE01_Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>G:\tse-games\UnityProjects\UFPS_v2_Wwise\UFPS_v2_Wwise_SoundDesign\TSE01_Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -56,7 +56,6 @@
 				<Event Id="617673183" Name="Play_Player_FallImpact_Rock" ObjectPath="\Events\Default Work Unit\Play_Player_FallImpact_Rock" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2227229482" Name="Play_Player_FallImpact_Sand" ObjectPath="\Events\Default Work Unit\Play_Player_FallImpact_Sand" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3507213995" Name="Play_Player_FallImpact_Wood" ObjectPath="\Events\Default Work Unit\Play_Player_FallImpact_Wood" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1724675634" Name="Play_Player_Footstep" ObjectPath="\Events\Default Work Unit\SFX\Player\Play_Player_Footstep" DurationType="OneShot" DurationMin="0.279858" DurationMax="0.790563"/>
 				<Event Id="872438052" Name="Play_Player_Footstep_Gravel" ObjectPath="\Events\Default Work Unit\Play_Player_Footstep_Gravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4225303162" Name="Play_Player_Footstep_Metal" ObjectPath="\Events\Default Work Unit\Play_Player_Footstep_Metal" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="788137702" Name="Play_Player_Footstep_Rock" ObjectPath="\Events\Default Work Unit\Play_Player_Footstep_Rock" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -125,44 +124,6 @@
 				<Event Id="1935341530" Name="Play_Weapon_Shotgun_Unwield" ObjectPath="\Events\Default Work Unit\Play_Weapon_Shotgun_Unwield" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1864886529" Name="Play_Weapon_Shotgun_Wield" ObjectPath="\Events\Default Work Unit\Play_Weapon_Shotgun_Wield" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="11305661" Language="SFX">
-					<ShortName>sfx_player_OnWalk_Concrete_000.wav</ShortName>
-					<Path>SFX\sfx_player_OnWalk_Concrete_000_4538E775.wem</Path>
-				</File>
-				<File Id="122058213" Language="SFX">
-					<ShortName>sfx_player_OnWalk_Asphalt_001.wav</ShortName>
-					<Path>SFX\sfx_player_OnWalk_Asphalt_001_124D54B3.wem</Path>
-				</File>
-				<File Id="292922642" Language="SFX">
-					<ShortName>sfx_player_OnWalk_Wood_000.wav</ShortName>
-					<Path>SFX\sfx_player_OnWalk_Wood_000_E02B3079.wem</Path>
-				</File>
-				<File Id="353585163" Language="SFX">
-					<ShortName>sfx_player_OnWalk_Concrete_001.wav</ShortName>
-					<Path>SFX\sfx_player_OnWalk_Concrete_001_10C4C929.wem</Path>
-				</File>
-				<File Id="489936357" Language="SFX">
-					<ShortName>sfx_player_OnWalk_Wood_002.wav</ShortName>
-					<Path>SFX\sfx_player_OnWalk_Wood_002_536795BB.wem</Path>
-				</File>
-				<File Id="555917690" Language="SFX">
-					<ShortName>sfx_player_OnWalk_Wood_001.wav</ShortName>
-					<Path>SFX\sfx_player_OnWalk_Wood_001_7BB33900.wem</Path>
-				</File>
-				<File Id="724631490" Language="SFX">
-					<ShortName>sfx_player_OnWalk_Concrete_002.wav</ShortName>
-					<Path>SFX\sfx_player_OnWalk_Concrete_002_10C4C929.wem</Path>
-				</File>
-				<File Id="796205531" Language="SFX">
-					<ShortName>sfx_player_OnWalk_Asphalt_002.wav</ShortName>
-					<Path>SFX\sfx_player_OnWalk_Asphalt_002_3E2E8E4D.wem</Path>
-				</File>
-				<File Id="847009515" Language="SFX">
-					<ShortName>sfx_player_OnWalk_Asphalt_000.wav</ShortName>
-					<Path>SFX\sfx_player_OnWalk_Asphalt_000_FC7F5E1F.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

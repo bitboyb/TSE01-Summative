@@ -5,9 +5,7 @@
 			<ChildrenList>
 				<StateGroup Name="Combat" ID="{17FA018A-D05D-4FC7-8CF9-76E7C4DEF51C}">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="8"/>
 						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{C0112B72-796E-4386-9845-C3304CD1D0A1}"/>
@@ -15,39 +13,11 @@
 						<State Name="OutOfCombat" ID="{E585CE48-3082-4A79-8F84-45A56F80A3C3}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="LocationSize" ID="{42521169-761D-4572-BC0A-E436223ED8DC}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="4"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
+				<StateGroup Name="Location" ID="{A6BFC04E-7864-49B5-8259-6E500F755632}">
 					<ChildrenList>
-						<State Name="None" ID="{A1C9DF4E-D029-4CDA-B46D-F71C42B575F1}"/>
-						<State Name="Small" ID="{C47D3446-C981-4D1D-A238-72AFA6BF5C0F}"/>
-						<State Name="Medium" ID="{FA6C72DF-1C0B-45D1-8A61-0EF6A350D114}"/>
-						<State Name="Large" ID="{FBEDF48E-BE92-4C5B-A787-302E71BF696B}"/>
-					</ChildrenList>
-				</StateGroup>
-				<StateGroup Name="CeilingHeight" ID="{540929D9-4CA6-4204-BC3F-73D9BC9B8547}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="2"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<State Name="None" ID="{4A222ECC-1559-4E19-A4FD-95A9FA6B7151}"/>
-						<State Name="Low" ID="{B5CE7047-B8C2-4C21-8543-508DCA310999}"/>
-						<State Name="Medium" ID="{D1E7A0AD-6CCE-4491-90FA-71418D5BAE6B}"/>
-						<State Name="High" ID="{3BA13314-5C45-4290-8F3C-7BBEE86E73FF}"/>
-					</ChildrenList>
-				</StateGroup>
-				<StateGroup Name="Location" ID="{10DEE4C7-DA5E-48F4-A5E5-2584AEF22DAC}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="12"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<State Name="None" ID="{A4BEFA2E-0AD2-42E6-B2EA-12CED7490187}"/>
-						<State Name="Inside" ID="{EA8EA0EC-D018-4789-A1C0-6680C03AB6E0}"/>
-						<State Name="Outside" ID="{48FE11DF-06CF-43F2-8BAF-FEDF7AB6294A}"/>
+						<State Name="None" ID="{B709B523-8280-4BD0-B2E3-47B98DEEC550}"/>
+						<State Name="Inside" ID="{687E0D63-36D7-4AD5-A8F8-44BB6B057C0A}"/>
+						<State Name="Outside" ID="{B19665B0-150E-43F7-97F1-71B083430833}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

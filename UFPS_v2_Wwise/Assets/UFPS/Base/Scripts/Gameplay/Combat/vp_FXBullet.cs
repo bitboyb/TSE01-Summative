@@ -32,7 +32,6 @@ public class vp_FXBullet : vp_Bullet
 	public float hitscanBulletHelp;
 #endif
 
-	private Rigidbody _rb;
 
 	/// <summary>
 	/// snaps the bullet to the hit point (for proper 3d audio positioning)
@@ -60,5 +59,7 @@ public class vp_FXBullet : vp_Bullet
 		m_TargetDHandler.Damage(new vp_DamageInfo(Damage, m_Source, vp_DamageInfo.DamageType.Bullet));
 
 	}
+
+
 }
 
