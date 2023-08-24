@@ -119,7 +119,7 @@ public class vp_Shell : MonoBehaviour
             // also, we play a random bounce sound
 
             //Wwise event
-            //AkSoundEngine.PostEvent("");
+            bounceSounds.Post(gameObject);
 
 		}
 		// soft collision = time to determine if this shell lives or dies

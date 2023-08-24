@@ -1,21 +1,107 @@
 Event	ID	Name			Wwise Object Path	Notes
-	219613933	Play_Grenade_PinPull			\Default Work Unit\SFX\Weapon\Play_Grenade_PinPull	
-	462624538	Play_Pistol_Cock			\Default Work Unit\SFX\Weapon\Play_Pistol_Cock	
-	483301989	Play_Turret_CasingDrop			\Default Work Unit\SFX\Turret\Play_Turret_CasingDrop	
-	887999531	Play_Player_Hurt			\Default Work Unit\SFX\Player\Play_Player_Hurt	
-	1130045259	Play_Knife_OnAttack			\Default Work Unit\SFX\Weapon\Play_Knife_OnAttack	
-	1173112260	Play_Grenade_OnThrow			\Default Work Unit\SFX\Weapon\Play_Grenade_OnThrow	
+	2050019	Play_GunTurret_Respawn			\Default Work Unit\Play_GunTurret_Respawn	
+	29761348	Play_Projectile_Impact_Shotgun_Sand			\Default Work Unit\Play_Projectile_Impact_Shotgun_Sand	
+	71957323	Play_Projectile_Impact_Shotgun_Metal			\Default Work Unit\Play_Projectile_Impact_Shotgun_Metal	
+	77252758	Play_Weapon_AssaultRifle_DryFire			\Default Work Unit\Play_Weapon_AssaultRifle_DryFire	
+	88020493	Play_Player_Jump_Sand			\Default Work Unit\Play_Player_Jump_Sand	
+	113239165	Play_Grenade_Collision_Metal			\Default Work Unit\Play_Grenade_Collision_Metal	
+	219936670	Play_GunTurret_Destroyed			\Default Work Unit\Play_GunTurret_Destroyed	
+	228785484	Play_Weapon_Shotgun_Pickup			\Default Work Unit\Play_Weapon_Shotgun_Pickup	
+	240207275	Play_Projectile_Impact_Body			\Default Work Unit\Play_Projectile_Impact_Body	
+	321386436	Play_Player_Pickup_Slowmo			\Default Work Unit\Play_Player_Pickup_Slowmo	
+	433775379	Play_Grenade_Collision_Wood			\Default Work Unit\Play_Grenade_Collision_Wood	
+	499223506	Play_Player_Jump_Generic			\Default Work Unit\Play_Player_Jump_Generic	
+	617673183	Play_Player_FallImpact_Rock			\Default Work Unit\Play_Player_FallImpact_Rock	
+	667776489	Play_Grenade_Collision_Gravel			\Default Work Unit\Play_Grenade_Collision_Gravel	
+	705360608	Play_Weapon_Glock_Pickup			\Default Work Unit\Play_Weapon_Glock_Pickup	
+	788137702	Play_Player_Footstep_Rock			\Default Work Unit\Play_Player_Footstep_Rock	
+	872438052	Play_Player_Footstep_Gravel			\Default Work Unit\Play_Player_Footstep_Gravel	
+	945803264	Play_Projectile_Impact_Metal			\Default Work Unit\Play_Projectile_Impact_Metal	
+	987776771	Play_Grenade_Collision_Generic			\Default Work Unit\Play_Grenade_Collision_Generic	
+	1054012614	Play_Object_Collision_Wood			\Default Work Unit\Play_Object_Collision_Wood	
+	1065036273	Play_Player_FallImpact_Gravel			\Default Work Unit\Play_Player_FallImpact_Gravel	
+	1074332529	Play_Player_Interaction_Ladder_Mount			\Default Work Unit\Play_Player_Interaction_Ladder_Mount	
+	1104563961	Play_Player_Pickup_Health			\Default Work Unit\Play_Player_Pickup_Health	
+	1200655580	Play_Weapon_Grenade_Throw			\Default Work Unit\Play_Weapon_Grenade_Throw	
+	1217663566	Play_Player_Footstep_Wood			\Default Work Unit\Play_Player_Footstep_Wood	
+	1251216012	Play_Projectile_Impact_Wood			\Default Work Unit\Play_Projectile_Impact_Wood	
+	1302309294	Play_Weapon_Glock_Unwield			\Default Work Unit\Play_Weapon_Glock_Unwield	
+	1383562155	Play_Weapon_Knife_Stab			\Default Work Unit\Play_Weapon_Knife_Stab	
+	1414632853	Play_Player_Interaction_Grab			\Default Work Unit\Play_Player_Interaction_Grab	
+	1420175520	Play_Player_Jump_Rock			\Default Work Unit\Play_Player_Jump_Rock	
+	1494220228	Play_Weapon_AssaultRifle_Reload			\Default Work Unit\Play_Weapon_AssaultRifle_Reload	
+	1504171807	Play_Player_Push_Switch			\Default Work Unit\Play_Player_Push_Switch	
+	1534406247	Play_Grenade_Collision_Rock			\Default Work Unit\Play_Grenade_Collision_Rock	
+	1600088316	Play_Player_Damage_RagdollDrop			\Default Work Unit\Play_Player_Damage_RagdollDrop	
+	1643291472	Play_Weapon_Grenade_Pickup			\Default Work Unit\Play_Weapon_Grenade_Pickup	
 	1724675634	Play_Player_Footstep			\Default Work Unit\SFX\Player\Play_Player_Footstep	
-	1835085974	Play_Player_Death			\Default Work Unit\SFX\Player\Play_Player_Death	
-	2521706033	Play_Pistol_OnFire			\Default Work Unit\SFX\Weapon\Play_Pistol_OnFire	
-	3082233908	Play_Turret_OnFire			\Default Work Unit\SFX\Turret\Play_Turret_OnFire	
-	3429602563	Play_Pistol_MagazineEject			\Default Work Unit\SFX\Weapon\Play_Pistol_MagazineEject	
-	3537171236	Play_Pistol_MagazineLoad			\Default Work Unit\SFX\Weapon\Play_Pistol_MagazineLoad	
-	3747732006	Play_Turret_OnDestroy			\Default Work Unit\SFX\Turret\Play_Turret_OnDestroy	
-	3906147804	Play_Grenade_Explosion			\Default Work Unit\SFX\Weapon\Play_Grenade_Explosion	
-	4013909017	Play_Pistol_HalfCock			\Default Work Unit\SFX\Weapon\Play_Pistol_HalfCock	
-	4075094091	Play_Turret_Alert			\Default Work Unit\SFX\Turret\Play_Turret_Alert	
-	4181921334	Play_Turret_Idle_Loop			\Default Work Unit\SFX\Turret\Play_Turret_Idle_Loop	
+	1750034035	Play_Explosion_Crate			\Default Work Unit\Play_Explosion_Crate	
+	1753688501	Play_Weapon_Glock_Wield			\Default Work Unit\Play_Weapon_Glock_Wield	
+	1771718509	Play_Explosion_Cube_Small			\Default Work Unit\Play_Explosion_Cube_Small	
+	1774824148	Play_SkyCity_Music			\Default Work Unit\Play_SkyCity_Music	
+	1775225375	Play_Weapon_Shotgun_Reload			\Default Work Unit\Play_Weapon_Shotgun_Reload	
+	1796808812	Play_Object_Collision_Gravel			\Default Work Unit\Play_Object_Collision_Gravel	
+	1835085974	Play_Player_Death			\Default Work Unit\Play_Player_Death	
+	1858228421	Play_Weapon_Grenade_Wield			\Default Work Unit\Play_Weapon_Grenade_Wield	
+	1864886529	Play_Weapon_Shotgun_Wield			\Default Work Unit\Play_Weapon_Shotgun_Wield	
+	1910435093	Play_GunTurret_Fire			\Default Work Unit\Play_GunTurret_Fire	
+	1935341530	Play_Weapon_Shotgun_Unwield			\Default Work Unit\Play_Weapon_Shotgun_Unwield	
+	2051801885	Play_Player_Interaction_Ladder_Dismount			\Default Work Unit\Play_Player_Interaction_Ladder_Dismount	
+	2227229482	Play_Player_FallImpact_Sand			\Default Work Unit\Play_Player_FallImpact_Sand	
+	2257988020	Play_Explosion_Turret			\Default Work Unit\Play_Explosion_Turret	
+	2298633770	Play_Projectile_Impact_Generic			\Default Work Unit\Play_Projectile_Impact_Generic	
+	2309336439	Play_Weapon_AssaultRifle_Unwield			\Default Work Unit\Play_Weapon_AssaultRifle_Unwield	
+	2333408675	Play_Object_Collision_Sand			\Default Work Unit\Play_Object_Collision_Sand	
+	2391787948	Play_Weapon_Glock_PickupFail			\Default Work Unit\Play_Weapon_Glock_PickupFail	
+	2401049040	Play_Player_Pain			\Default Work Unit\Play_Player_Pain	
+	2447318745	Play_Projectile_Impact_Shotgun_Rock			\Default Work Unit\Play_Projectile_Impact_Shotgun_Rock	
+	2489309115	Play_Player_Pickup_Fail			\Default Work Unit\Play_Player_Pickup_Fail	
+	2535870139	Play_Player_Footstep_Sand			\Default Work Unit\Play_Player_Footstep_Sand	
+	2537600357	Play_Projectile_Impact_Sand			\Default Work Unit\Play_Projectile_Impact_Sand	
+	2552221191	Play_Weapon_Knife_Unwield			\Default Work Unit\Play_Weapon_Knife_Unwield	
+	2567502628	Play_Player_Jump_Wood			\Default Work Unit\Play_Player_Jump_Wood	
+	2621029088	Play_Weapon_Glock_Fire			\Default Work Unit\Play_Weapon_Glock_Fire	
+	2887566695	Play_Weapon_Shotgun_DryFire			\Default Work Unit\Play_Weapon_Shotgun_DryFire	
+	2934439298	Play_Projectile_Impact_Gravel			\Default Work Unit\Play_Projectile_Impact_Gravel	
+	2948962079	Play_Projectile_Impact_Shotgun_Gravel			\Default Work Unit\Play_Projectile_Impact_Shotgun_Gravel	
+	2962353707	Play_Player_FallImpact_Generic			\Default Work Unit\Play_Player_FallImpact_Generic	
+	3002645259	Play_Weapon_Glock_Reload			\Default Work Unit\Play_Weapon_Glock_Reload	
+	3121364601	Play_Player_Pickup_Ammo			\Default Work Unit\Play_Player_Pickup_Ammo	
+	3149873505	Play_Projectile_Impact_Shotgun_Generic			\Default Work Unit\Play_Projectile_Impact_Shotgun_Generic	
+	3155333987	Play_Weapon_AssaultRifle_Fire			\Default Work Unit\Play_Weapon_AssaultRifle_Fire	
+	3185902068	Play_Object_Collision_Generic			\Default Work Unit\Play_Object_Collision_Generic	
+	3240538482	Play_Footsteps_Ladder			\Default Work Unit\Play_Footsteps_Ladder	
+	3323714021	Play_Explosion_Cube_Medium			\Default Work Unit\Play_Explosion_Cube_Medium	
+	3347279095	Play_Object_Shell_Bounce			\Default Work Unit\Play_Object_Shell_Bounce	
+	3355065672	Play_Explosion_Grenade			\Default Work Unit\Play_Explosion_Grenade	
+	3408667289	Play_Object_Door_Open			\Default Work Unit\Play_Object_Door_Open	
+	3440975554	Play_Grenade_Collision_Sand			\Default Work Unit\Play_Grenade_Collision_Sand	
+	3486444227	Play_Weapon_Glock_DryFire			\Default Work Unit\Play_Weapon_Glock_DryFire	
+	3507213995	Play_Player_FallImpact_Wood			\Default Work Unit\Play_Player_FallImpact_Wood	
+	3565823665	Play_Projectile_Impact_Shotgun_Wood			\Default Work Unit\Play_Projectile_Impact_Shotgun_Wood	
+	3567098453	Play_Explosion_Cube_Large			\Default Work Unit\Play_Explosion_Cube_Large	
+	3568534433	Play_Object_ShotgunShell_Bounce			\Default Work Unit\Play_Object_ShotgunShell_Bounce	
+	3638494632	Play_Player_Jump_Metal			\Default Work Unit\Play_Player_Jump_Metal	
+	3693372815	Play_Object_Spawn			\Default Work Unit\Play_Object_Spawn	
+	3693774580	Play_Weapon_Shotgun_Fire			\Default Work Unit\Play_Weapon_Shotgun_Fire	
+	3711373850	Play_Projectile_Impact_Shotgun_Body			\Default Work Unit\Play_Projectile_Impact_Shotgun_Body	
+	3719969812	Play_Player_Interaction_Drop			\Default Work Unit\Play_Player_Interaction_Drop	
+	3727925695	Play_Player_Jump_Grunt			\Default Work Unit\Play_Player_Jump_Grunt	
+	3740255252	Play_Player_HealthLow			\Default Work Unit\Play_Player_HealthLow	
+	3814548396	Play_Player_Pickup_Speed			\Default Work Unit\Play_Player_Pickup_Speed	
+	3864690181	Play_Player_FallImpact_Metal			\Default Work Unit\Play_Player_FallImpact_Metal	
+	3882425706	Play_Player_Jump_Gravel			\Default Work Unit\Play_Player_Jump_Gravel	
+	3910508167	Play_Weapon_AssaultRifle_Pickup			\Default Work Unit\Play_Weapon_AssaultRifle_Pickup	
+	3979494622	Play_Weapon_Grenade_Unwield			\Default Work Unit\Play_Weapon_Grenade_Unwield	
+	4013787144	Play_Weapon_Knife_Wield			\Default Work Unit\Play_Weapon_Knife_Wield	
+	4021590872	Play_Weapon_AssaultRifle_Wield			\Default Work Unit\Play_Weapon_AssaultRifle_Wield	
+	4026866594	Play_Object_Collision_Metal			\Default Work Unit\Play_Object_Collision_Metal	
+	4028534575	Play_Ambience_Outdoor			\Default Work Unit\Play_Ambience_Outdoor	
+	4077877566	Play_Object_Collision_Rock			\Default Work Unit\Play_Object_Collision_Rock	
+	4135534152	Play_Projectile_Impact_Rock			\Default Work Unit\Play_Projectile_Impact_Rock	
+	4156561345	Play_Player_Interaction_Ladder_Climb			\Default Work Unit\Play_Player_Interaction_Ladder_Climb	
+	4225303162	Play_Player_Footstep_Metal			\Default Work Unit\Play_Player_Footstep_Metal	
+	4238880044	Play_Player_Respawn			\Default Work Unit\Play_Player_Respawn	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1833605183	Footstep_Surface			\Default Work Unit\Footstep_Surface	
@@ -27,40 +113,12 @@ Switch	ID	Name	Switch Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	11305661	sfx_player_OnWalk_Concrete_000	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\sfx_player_OnWalk_Concrete_000_4538E775.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Concrete\sfx_player_OnWalk_Concrete_000		49432
-	69491245	Knife_OnSwing_000	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Knife_OnSwing_000_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Knife\Knife_OnSwing\Knife_OnSwing_000		66068
-	87506013	Player_Hurt_002	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Player_Hurt_002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Health\Player_OnHurt\Player_Hurt_002		38976
 	122058213	sfx_player_OnWalk_Asphalt_001	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\sfx_player_OnWalk_Asphalt_001_124D54B3.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Asphalt\sfx_player_OnWalk_Asphalt_001		54888
-	175263037	Grenade_Explosion	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Grenade_Explosion_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Grenade\Grenade_Explosion		282304
-	176341735	Knife_OnSwing_001	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Knife_OnSwing_001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Knife\Knife_OnSwing\Knife_OnSwing_001		60404
-	195161131	Bullet_CasingDrop_003	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Bullet_CasingDrop_003_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Gun_CasingDrop\Bullet_CasingDrop_003		93438
-	235688741	Player_Hurt_003	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Player_Hurt_003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Health\Player_OnHurt\Player_Hurt_003		65856
-	289280971	Knife_Whoosh_002	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Knife_Whoosh_002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Knife\Knife_Whoosh\Knife_Whoosh_002		66752
 	292922642	sfx_player_OnWalk_Wood_000	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\sfx_player_OnWalk_Wood_000_E02B3079.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Wood\sfx_player_OnWalk_Wood_000		75958
-	321919500	Bullet_CasingDrop_001	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Bullet_CasingDrop_001_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Gun_CasingDrop\Bullet_CasingDrop_001		88146
-	323818843	Grenade_OnThrow	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Grenade_OnThrow_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Grenade\Grenade_OnThrow		74396
 	353585163	sfx_player_OnWalk_Concrete_001	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\sfx_player_OnWalk_Concrete_001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Concrete\sfx_player_OnWalk_Concrete_001		137280
-	412074774	Pistol_MagazineLoad	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Pistol_MagazineLoad_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Pistol\Pistol_MagazineLoad		61684
-	412733886	Player_Hurt_000	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Player_Hurt_000_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Health\Player_OnHurt\Player_Hurt_000		14400
-	468376032	Pistol_Cock	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Pistol_Cock_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Pistol\Pistol_Cock		83988
-	469422638	Turret_Idle_Loop	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Turret_Idle_Loop_FE80CAEE.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Turret\Turret_Idle_Loop		732900
 	489936357	sfx_player_OnWalk_Wood_002	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\sfx_player_OnWalk_Wood_002_536795BB.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Wood\sfx_player_OnWalk_Wood_002		55276
 	555917690	sfx_player_OnWalk_Wood_001	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\sfx_player_OnWalk_Wood_001_7BB33900.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Wood\sfx_player_OnWalk_Wood_001		54404
-	603279970	Knife_Whoosh_001	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Knife_Whoosh_001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Knife\Knife_Whoosh\Knife_Whoosh_001		61084
-	608716875	Player_OnDeath	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Player_OnDeath_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Health\Player_OnDeath		761920
 	724631490	sfx_player_OnWalk_Concrete_002	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\sfx_player_OnWalk_Concrete_002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Concrete\sfx_player_OnWalk_Concrete_002		139328
-	743250976	Pistol_MagazineEject	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Pistol_MagazineEject_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Pistol\Pistol_MagazineEject		92396
-	753555913	Turrent_OnFire_002	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Turrent_OnFire_002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Turret\Turret_OnFire\Turrent_OnFire_002		67732
-	759663543	Bullet_CasingDrop_002	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Bullet_CasingDrop_002_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Gun_CasingDrop\Bullet_CasingDrop_002		57484
-	787789417	Grenade_PinPull	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Grenade_PinPull_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Grenade\Grenade_PinPull		101264
-	794188277	Turret_OnAlert	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Turret_OnAlert_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Turret\Turret_OnAlert		125604
 	796205531	sfx_player_OnWalk_Asphalt_002	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\sfx_player_OnWalk_Asphalt_002_3E2E8E4D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Asphalt\sfx_player_OnWalk_Asphalt_002		57728
-	840196440	Knife_Whoosh_000	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Knife_Whoosh_000_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Knife\Knife_Whoosh\Knife_Whoosh_000		66752
 	847009515	sfx_player_OnWalk_Asphalt_000	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\sfx_player_OnWalk_Asphalt_000_FC7F5E1F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footstep\Player_OnWalk\Asphalt\sfx_player_OnWalk_Asphalt_000		59264
-	873131423	Pistol_HalfCock	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Pistol_HalfCock_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Pistol\Pistol_HalfCock		91428
-	956249934	Turret_Deactivate	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Turret_Deactivate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Turret\Turret_Deactivate		61500
-	973612553	Turrent_OnFire_000	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Turrent_OnFire_000_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Turret\Turret_OnFire\Turrent_OnFire_000		68624
-	1008784244	Pistol_OnFire	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Pistol_OnFire_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Pistol\Pistol_OnFire		73444
-	1016629659	Bullet_CasingDrop_000	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Bullet_CasingDrop_000_mono_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Weapon\Gun_CasingDrop\Bullet_CasingDrop_000		57334
-	1042951114	Turrent_OnFire_001	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Turrent_OnFire_001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Turret\Turret_OnFire\Turrent_OnFire_001		67732
-	1044776815	Player_Hurt_001	D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\.cache\Mac\SFX\Player_Hurt_001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Health\Player_OnHurt\Player_Hurt_001		38208
 

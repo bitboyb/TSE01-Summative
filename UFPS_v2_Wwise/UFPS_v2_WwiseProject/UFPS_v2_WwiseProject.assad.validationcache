@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="94">
-	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1692799030" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1692651354" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1643974146" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1596185566" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1596187650" DateHigh="0"/>
@@ -9,8 +9,7 @@
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1596185566" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1596185566" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Effects\Factory Effects.wwu" DateLow="1628850560" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Events\Default Work Unit.wwu" DateLow="1692799030" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Events\LEGACY.wwu" DateLow="1692702751" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Events\Default Work Unit.wwu" DateLow="1692650953" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1692650953" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1643974062" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1692650953" DateHigh="0"/>
@@ -19,12 +18,12 @@
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1596185566" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1596185566" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Queries\Factory Queries.wwu" DateLow="1579788216" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1692702751" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1692651354" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1596185566" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\States\Default Work Unit.wwu" DateLow="1692650953" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1692650953" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1596185566" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\UFPS_v2_WwiseProject.assad.wsettings" DateLow="1692651430" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\UFPS_v2_WwiseProject.assad.wsettings" DateLow="1692651354" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\UFPS_v2_WwiseProject.wproj" DateLow="1612528068" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Unity Prototypes\TSE01-Summative\UFPS_v2_Wwise\UFPS_v2_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1596185566" DateHigh="0"/>
 </ValidationCache>
