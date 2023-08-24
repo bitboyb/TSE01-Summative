@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TreeEditor;
+using UnityEngine;
 using UnityEngine.Serialization;
 
 public class AcousticsBehaviour : MonoBehaviour
@@ -62,9 +63,7 @@ public class AcousticsBehaviour : MonoBehaviour
     {
         RaycastHit hit;
         Vector3 direction = _rayDirections[index];
-
         Debug.DrawRay(transform.position, direction * maxDistance, Color.red);
-
         Ray ray = new Ray(transform.position, direction);
 
         if (Physics.Raycast(ray, out hit, maxDistance))
@@ -78,7 +77,6 @@ public class AcousticsBehaviour : MonoBehaviour
         RaycastHit hit;
         Vector3 endPoint = transform.position + _rayDirections[index] * (_distances[index]/ceilingRayOffset);
         Vector3 ceilingDirection = Vector3.up;
-
         Ray ceilingRay = new Ray(endPoint, ceilingDirection);
 
         if (Physics.Raycast(ceilingRay, out hit, maxDistance))
@@ -139,15 +137,15 @@ public class AcousticsBehaviour : MonoBehaviour
 
         // Calculate the actual dimensions of the cube
         float width = maxX - minX;
-        float height = averageHeight/2; // Use the average height here
+        float height = averageHeight/2;
         float depth = maxZ - minZ;
 
         // Calculate the center position of the cube
-        Vector3 spaceCenter = new Vector3((minX + maxX) * 0.5f, (minY + maxY) * 0.5f, (minZ + maxZ) * 0.5f);
+        //Vector3 spaceCenter = new Vector3((minX + maxX) * 0.5f, (minY + maxY) * 0.5f, (minZ + maxZ) * 0.5f);
+        //Vector3 spaceCenter = new Vector3(transform.position.x, (transform.position.y + (averageHeight * 0.5f)), transform.position.z);
         spaceDimensions = new Vector3(width, height, depth);
-
         Color spaceColor = Color.green;
-        DrawDebugSpace(spaceCenter, spaceDimensions, spaceColor);
+        DrawDebugSpace(transform.position, spaceDimensions, spaceColor);
     }
 
     private void DrawDebugSpace(Vector3 center, Vector3 dimensions, Color color)

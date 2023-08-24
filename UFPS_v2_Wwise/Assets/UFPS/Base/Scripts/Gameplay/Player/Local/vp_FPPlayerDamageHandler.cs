@@ -14,6 +14,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(vp_FPPlayerEventHandler))]
 
@@ -23,6 +24,8 @@ public class vp_FPPlayerDamageHandler : vp_PlayerDamageHandler
 	public float CameraShakeFactor = 0.02f;
 	protected float m_DamageAngle = 0.0f;
 	protected float m_DamageAngleFactor = 1.0f;
+
+	public UnityEvent OnDamageTaken;
 
 	protected vp_FPPlayerEventHandler m_FPPlayer = null;	// should never be referenced directly
 	protected vp_FPPlayerEventHandler FPPlayer	// lazy initialization of the event handler field
@@ -119,7 +122,8 @@ public class vp_FPPlayerDamageHandler : vp_PlayerDamageHandler
 
 		// shake camera to the left or right
 		FPPlayer.HeadImpact.Send(Random.value < 0.5f ? (damage * CameraShakeFactor) : -(damage * CameraShakeFactor));
-
+		if(!isDead)
+			OnDamageTaken.Invoke();
 	}
 
 
@@ -157,7 +161,8 @@ public class vp_FPPlayerDamageHandler : vp_PlayerDamageHandler
 			FPPlayer.HeadImpact.Send((damageInfo.Damage * CameraShakeFactor * m_DamageAngleFactor) * ((m_DamageAngle < 0.0f) ? 1 : -1));
 
 		}
-
+		if(!isDead)
+			OnDamageTaken.Invoke();
 	}
 
 
@@ -168,14 +173,12 @@ public class vp_FPPlayerDamageHandler : vp_PlayerDamageHandler
 	/// </summary>
 	public override void Die()
 	{
-
 		base.Die();
 
 		if (!enabled || !vp_Utility.IsActive(gameObject))
 			return;
 
 		FPPlayer.InputAllowGameplay.Set(false);
-
 	}
 
 

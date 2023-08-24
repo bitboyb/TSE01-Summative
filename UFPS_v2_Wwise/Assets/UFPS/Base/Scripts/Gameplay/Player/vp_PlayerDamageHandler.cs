@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////////////////////////////////
 //
 //	vp_PlayerDamageHandler.cs
-//	© Opsive. All Rights Reserved.
+//	Â© Opsive. All Rights Reserved.
 //	https://twitter.com/Opsive
 //	http://www.opsive.com
 //
@@ -16,7 +16,7 @@ using System.Collections.Generic;
 
 public class vp_PlayerDamageHandler : vp_DamageHandler
 {
-
+	public bool isDead = false;
 	
 	private vp_PlayerEventHandler m_Player = null;	// should never be referenced directly
 	protected vp_PlayerEventHandler Player	// lazy initialization of the event handler field
@@ -126,7 +126,7 @@ public class vp_PlayerDamageHandler : vp_DamageHandler
 	/// </summary>
 	public override void Die()
 	{
-
+		isDead = true;
 		if (!enabled || !vp_Utility.IsActive(gameObject))
 			return;
 
@@ -166,6 +166,7 @@ public class vp_PlayerDamageHandler : vp_DamageHandler
 			vp_GlobalEvent<Transform>.Send("TransmitKill", transform.root);
 		}
 
+		isDead = false;
 	}
 
 
